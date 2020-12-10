@@ -4,8 +4,8 @@ function List() {
   return (
     <ul>
       <li>Moo</li>
-      <li>MeshMesh</li>
-      <li>Minoo</li>
+      <li>Moo2</li>
+      <li>Moo3</li>
     </ul>
   );
 }
