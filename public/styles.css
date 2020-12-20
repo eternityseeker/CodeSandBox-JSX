@@ -1,3 +1,12 @@
 .heading {
-color: red;
+  color: red;
+}
+
+.flex-div {
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* Standard syntax */
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
