@@ -1,13 +1,10 @@
 import React from "react";
 import Heading1 from "./Heading1";
-import Card from "./card";
-import contacts from "./contacts";
+import Card2 from "./card2";
 
 const customeStyle = {
   display: "flex"
 };
-
-
 
 function App1() {
   return (
@@ -16,10 +13,7 @@ function App1() {
         <Heading1 />
       </div>
       <div className="flex-div">
-        <Card name={contacts[0].name}
-        img={contacts[0].imgURL}
-        tel={contacts[0].tel}
-         email={contacts[0].email} />
+        <Card2 />
       </div>
     </div>
   );
