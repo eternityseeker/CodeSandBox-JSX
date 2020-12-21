@@ -21,7 +21,7 @@ function card2(props) {
     <div>
       <div>{contacts.map(createcard)}</div>
       <div>
-        {contacts.map((contact) => (
+        {contacts.map(contact => (
           <Card
             id={contact.id}
             key={contact.id}
